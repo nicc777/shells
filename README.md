@@ -14,6 +14,7 @@ This will evolve...
 * `common/portainer.sh` - A shortcut to launch an instance of [portainer](http://portainer.io/), managing the local docker server. Once launched, visit [the web interface](http://127.0.0.1:9000/). When prompted, just set a password and carry on. The password will not persist through container restarts.
 * `common/webserver.sh` - A shortcut to running a Apache2 web server instance with the web root mounted on `$HOME/dist` - I use this to stage all my Python builds for local testing.
 * `common/docker_term_connect.sh` - An interactive script that will list all running containers and prompt you to which one you would like to open a terminal for. Choose a name from the last column and you will (in most cases) gain terminal access.
+* `common/dynamodb.sh` - A [DynamoDB](https://aws.amazon.com/dynamodb/) docker image from [dwmkerr](https://hub.docker.com/r/dwmkerr/dynamodb/)
 
 ## Ubuntu Specific
 

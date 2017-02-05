@@ -20,6 +20,11 @@ This will evolve...
 
 These are what I use on my Linux workstation, so it's optimized for me but of course you can modify it to suite your needs
 
-* `ubuntu/docker_remove_orphaned_volumes.sh` - A script to do some docker house keeping - frees up a lot of disk space, especially if you use docker a lot.
+* `ubuntu/docker_remove_orphaned_volumes.sh` - A script to do some docker house keeping - frees up a lot of disk space, especially if you use docker a lot. If you use a Mac, please see OSX below.
 * `ubuntu/db_start.sh` and `ubuntu/db_stop.sh` - PostgreSQL start ans dtop scripts I use for a custom database instance in `$HOME/data`
+
+## OSX Specific
+
+* `osx/docker_remove_orphaned_volumes.sh` - A script to do some docker house keeping - frees up a lot of disk space, especially if you use docker a lot. If you use Linux, please see the Ubuntu scripts above.
+
 
